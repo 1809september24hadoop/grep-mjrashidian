@@ -9,7 +9,7 @@ cat cities.txt | grep '\b.ar'
 #5.
 cat cities.txt | grep -v '^\C'
 #6.
-cat cities.txt | grep -E '(.)(\1)$'
+cat cities.txt | grep -E '^[^ ]{14,}$'
 #7.
 cat cities.txt | grep -c '^B'
 #8.
